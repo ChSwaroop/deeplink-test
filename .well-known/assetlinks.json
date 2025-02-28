@@ -7,7 +7,8 @@
             "namespace": "android_app",
             "package_name": "com.mycompany.helloworld",
             "sha256_cert_fingerprints": [
-                "99:E8:A3:4B:91:31:23:8E:C9:6F:D2:88:A9:0D:89:25:07:19:A1:DF:12:C2:75:54:AE:C8:58:A4:21:98:6B:AA"
+                "99:E8:A3:4B:91:31:23:8E:C9:6F:D2:88:A9:0D:89:25:07:19:A1:DF:12:C2:75:54:AE:C8:58:A4:21:98:6B:AA",
+                "BE:5C:E4:1E:0A:61:61:8D:C4:28:5A:BB:F9:1D:F6:92:C4:E7:3F:04:E5:35:FD:7C:F4:FF:DB:B4:E1:20:71:14"
             ]
         }
     }

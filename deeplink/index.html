@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fallback</title>
+    <script>
+      // Detect Android/iOS and redirect
+      const userAgent = navigator.userAgent.toLowerCase();
+      const isAndroid = userAgent.includes("android");
+      const isiOS = /iphone|ipad|ipod/.test(userAgent);
+
+      if (isAndroid) {
+        window.location.href =
+          "https://play.google.com/store/apps/details?id=com.mycompany.helloworld";
+      } else if (isiOS) {
+        window.location.href = "https://apps.apple.com/app/idYOUR_APP_ID";
+      } else {
+        // Fallback to website or other logic
+      }
+    </script>
   </head>
   <body>
-    I am opened because the app is not present on your device.
+    <!-- Optional: Fallback content -->
+    <p>
+      Download the app
+      <a
+        href="https://play.google.com/store/apps/details?id=com.mycompany.helloworld"
+        >here</a
+      >.
+    </p>
+    <p>I am opened because the app is not present on your device.</p>
   </body>
 </html>
